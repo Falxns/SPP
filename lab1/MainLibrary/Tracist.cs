@@ -1,47 +1,45 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.Diagnostics;
 
 namespace MainLibrary
 {
     public class Tracist: ITracer
     {
-        Stopwatch _stopwatch = new Stopwatch();
-        private string _methodname;
-        private string _classname;
-        private long _elapsedtime;
+        private TraceResult traceResult = new TraceResult(); 
+        Stack<MethodInfo> _stackInfo = new Stack<MethodInfo>();
         public void StartTrace()
         {
-            _methodname = GetCurrentMethod();
-            _classname = GetClassName();
-            Console.WriteLine(_methodname);
-            Console.WriteLine(_classname);
-            _stopwatch.Start();
+            _stackInfo.Push(new MethodInfo(GetCurrentMethod(),GetClassName(),0,new Stopwatch()));
+            _stackInfo.Peek().watch.Start();
         }
 
         public void StopTrace()
         {
-            _stopwatch.Stop(); 
-            _elapsedtime = _stopwatch.ElapsedMilliseconds;
-            Console.WriteLine(_elapsedtime);
+            _stackInfo.Peek().watch.Stop();
+            _stackInfo.Peek().methodTime = _stackInfo.Peek().watch.ElapsedMilliseconds;
+            traceResult.MethodInfos.AddLast(_stackInfo.Peek());
+            _stackInfo.Pop();
         }
 
         public TraceResult GetTraceResult()
         {
-            return new TraceResult(_methodname,_classname,_elapsedtime);
+            return traceResult;
         }
         string GetCurrentMethod()
         {
-            int _num = 2;
+            int num = 2;
             var st = new StackTrace();
-            var sf = st.GetFrame(_num);
+            var sf = st.GetFrame(num);
 
             return sf.GetMethod().Name;
         }
         string GetClassName()
         {
-            int _num = 2;
+            int num = 2;
             var st = new StackTrace();
-            var sf = st.GetFrame(_num);
+            var sf = st.GetFrame(num);
 
             return sf.GetMethod()?.DeclaringType?.Name;
         }

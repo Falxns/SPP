@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading;
 using MainLibrary;
@@ -10,12 +11,21 @@ namespace ConsoleApp
         static void Main(string[] args)
         {
             Tracist tracist = new Tracist();
-            //Foo _foo = new Foo(tracist);
-            //_foo.MyMethod();
+            
             Bar _bar = new Bar(tracist);
+            //_bar.InnerMethod();
+            //_bar.InnerMethod();
+            
+            Foo _foo = new Foo(tracist);
+            _foo.MyMethod();
+            
             _bar.InnerMethod();
+
             TraceResult res = tracist.GetTraceResult();
-            res.Print();
+            foreach (var buff in res.MethodInfos)
+            {
+                buff.Print();
+            }
         }
     }
     public class Foo
@@ -33,6 +43,9 @@ namespace ConsoleApp
         {
             _tracer.StartTrace();
             
+            Thread.Sleep(50);
+            _bar.InnerMethod();
+            _bar.InnerMethod();
             _bar.InnerMethod();
             
             _tracer.StopTrace();
