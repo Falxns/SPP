@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Diagnostics;
+using System.Threading;
 using MainLibrary;
 
 namespace ConsoleApp
@@ -8,10 +10,12 @@ namespace ConsoleApp
         static void Main(string[] args)
         {
             Tracist tracist = new Tracist();
-            Foo _foo = new Foo(tracist);
-            _foo.MyMethod();
+            //Foo _foo = new Foo(tracist);
+            //_foo.MyMethod();
             Bar _bar = new Bar(tracist);
             _bar.InnerMethod();
+            TraceResult res = tracist.GetTraceResult();
+            res.Print();
         }
     }
     public class Foo
@@ -47,7 +51,7 @@ namespace ConsoleApp
         public void InnerMethod()
         {
             _tracer.StartTrace();
-            
+            Thread.Sleep(100);
             _tracer.StopTrace();
         }
     }
