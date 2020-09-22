@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Hf3igumgNvehdhbnQCTA127+k6iFoRmgKNu0OMkc6e+Y3r+0nHHXNImGgffv/ggvKFvO6eLdJk7olV3JyRZbDw==",
+  "dgSpecHash": "dxym3Ob6f8OMJ1cKqDn/CtbMN/3NSrfZA5GBEJqrH6+TsOCHI9rxbCnoW19rkDpKwly4pDtTPDTkF+LhqJWzWA==",
   "success": true,
   "projectFilePath": "/Users/falxns/Downloads/СПП/lab1/ConsoleApp/ConsoleApp.csproj",
   "expectedPackageFiles": [
@@ -10,7 +10,8 @@
     "/Users/falxns/.nuget/packages/microsoft.netcore.dotnethostresolver/2.1.0/microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
     "/Users/falxns/.nuget/packages/microsoft.netcore.platforms/2.1.0/microsoft.netcore.platforms.2.1.0.nupkg.sha512",
     "/Users/falxns/.nuget/packages/microsoft.netcore.targets/2.1.0/microsoft.netcore.targets.2.1.0.nupkg.sha512",
-    "/Users/falxns/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+    "/Users/falxns/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/falxns/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }

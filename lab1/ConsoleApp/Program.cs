@@ -11,43 +11,40 @@ namespace ConsoleApp
         static void Main(string[] args)
         {
             Tracist tracist = new Tracist();
-            
             Bar _bar = new Bar(tracist);
-            //_bar.InnerMethod();
-            //_bar.InnerMethod();
-            
             Foo _foo = new Foo(tracist);
-            _foo.MyMethod();
+
+            Thread myThread1 = new Thread(_foo.MyMethod);
+            myThread1.Start();
+            myThread1.Join();
             
+            _foo.MyMethod();
             _bar.InnerMethod();
+            
+            Thread myThread2 = new Thread(_bar.InnerMethod);
+            myThread2.Start();
+            myThread2.Join();
 
             TraceResult res = tracist.GetTraceResult();
-            foreach (var buff in res.MethodInfos)
-            {
-                buff.Print();
-            }
+            res.Print();
         }
     }
     public class Foo
     {
         private Bar _bar;
         private ITracer _tracer;
-
         internal Foo(ITracer tracer)
         {
             _tracer = tracer;
             _bar = new Bar(_tracer);
         }
-    
         public void MyMethod()
         {
             _tracer.StartTrace();
             
             Thread.Sleep(50);
             _bar.InnerMethod();
-            _bar.InnerMethod();
-            _bar.InnerMethod();
-            
+
             _tracer.StopTrace();
         }
     }
@@ -55,7 +52,6 @@ namespace ConsoleApp
     public class Bar
     {
         private ITracer _tracer;
-
         internal Bar(ITracer tracer)
         {
             _tracer = tracer;
@@ -64,7 +60,9 @@ namespace ConsoleApp
         public void InnerMethod()
         {
             _tracer.StartTrace();
+            
             Thread.Sleep(100);
+            
             _tracer.StopTrace();
         }
     }

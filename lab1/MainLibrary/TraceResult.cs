@@ -6,6 +6,14 @@ namespace MainLibrary
 {
     public class TraceResult
     {
-        public LinkedList<MethodInfo> MethodInfos = new LinkedList<MethodInfo>();
+        public LinkedList<ThreadInfo> ThreadInfos = new LinkedList<ThreadInfo>();
+
+        public void Print()
+        {
+            foreach (var buff in ThreadInfos)
+            {
+                buff.Print();
+            }
+        }
     }
 }
