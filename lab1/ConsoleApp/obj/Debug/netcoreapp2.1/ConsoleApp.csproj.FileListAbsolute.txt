@@ -1,0 +1,15 @@
+/Users/falxns/Downloads/СПП/lab1/ConsoleApp/bin/Debug/netcoreapp2.1/ConsoleApp.deps.json
+/Users/falxns/Downloads/СПП/lab1/ConsoleApp/bin/Debug/netcoreapp2.1/ConsoleApp.runtimeconfig.json
+/Users/falxns/Downloads/СПП/lab1/ConsoleApp/bin/Debug/netcoreapp2.1/ConsoleApp.runtimeconfig.dev.json
+/Users/falxns/Downloads/СПП/lab1/ConsoleApp/bin/Debug/netcoreapp2.1/ConsoleApp.dll
+/Users/falxns/Downloads/СПП/lab1/ConsoleApp/bin/Debug/netcoreapp2.1/ConsoleApp.pdb
+/Users/falxns/Downloads/СПП/lab1/ConsoleApp/bin/Debug/netcoreapp2.1/MainLibrary.dll
+/Users/falxns/Downloads/СПП/lab1/ConsoleApp/bin/Debug/netcoreapp2.1/MainLibrary.pdb
+/Users/falxns/Downloads/СПП/lab1/ConsoleApp/obj/Debug/netcoreapp2.1/ConsoleApp.csprojAssemblyReference.cache
+/Users/falxns/Downloads/СПП/lab1/ConsoleApp/obj/Debug/netcoreapp2.1/ConsoleApp.AssemblyInfoInputs.cache
+/Users/falxns/Downloads/СПП/lab1/ConsoleApp/obj/Debug/netcoreapp2.1/ConsoleApp.AssemblyInfo.cs
+/Users/falxns/Downloads/СПП/lab1/ConsoleApp/obj/Debug/netcoreapp2.1/ConsoleApp.csproj.CoreCompileInputs.cache
+/Users/falxns/Downloads/СПП/lab1/ConsoleApp/obj/Debug/netcoreapp2.1/ConsoleApp.csproj.CopyComplete
+/Users/falxns/Downloads/СПП/lab1/ConsoleApp/obj/Debug/netcoreapp2.1/ConsoleApp.dll
+/Users/falxns/Downloads/СПП/lab1/ConsoleApp/obj/Debug/netcoreapp2.1/ConsoleApp.pdb
+/Users/falxns/Downloads/СПП/lab1/ConsoleApp/obj/Debug/netcoreapp2.1/ConsoleApp.genruntimeconfig.cache
