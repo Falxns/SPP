@@ -14,7 +14,14 @@
     },
     "frameworks": {
       "netcoreapp2.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "/Users/falxns/Downloads/СПП/lab1/ConsoleApp/ConsoleApp.csproj": {
+            "projectPath": "/Users/falxns/Downloads/СПП/lab1/ConsoleApp/ConsoleApp.csproj"
+          },
+          "/Users/falxns/Downloads/СПП/lab1/MainLibrary/MainLibrary.csproj": {
+            "projectPath": "/Users/falxns/Downloads/СПП/lab1/MainLibrary/MainLibrary.csproj"
+          }
+        }
       }
     },
     "warningProperties": {

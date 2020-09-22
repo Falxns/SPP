@@ -17,6 +17,20 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.lab1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lab1/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.lab1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lab1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp2.1/ConsoleApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp2.1/ConsoleApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp2.1/ConsoleApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp2.1/ConsoleApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp2.1/ConsoleApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp2.1/ConsoleApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp2.1/ConsoleApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp2.1/ConsoleApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Tests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/UnitTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/obj/Debug/netcoreapp2.1/Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/Debug/netcoreapp2.1/Tests.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/obj/Debug/netcoreapp2.1/Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/Debug/netcoreapp2.1/Tests.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/obj/Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/Tests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/obj/Tests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/Tests.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +59,7 @@
         <option value="$PROJECT_DIR$/MainLibrary/TraceResult.cs" />
         <option value="$PROJECT_DIR$/MainLibrary/XmlSerialization.cs" />
         <option value="$PROJECT_DIR$/ConsoleApp/Program.cs" />
+        <option value="$PROJECT_DIR$/Tests/UnitTests.cs" />
       </list>
     </option>
   </component>
@@ -65,7 +80,7 @@
     <property name="XThreadsFramesViewSplitterKey" value="0.38798702" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected=".NET Project.ConsoleApp">
     <configuration name="ConsoleApp" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -106,32 +121,33 @@
     <MESSAGE value="Added thread tracing and json serialization" />
     <MESSAGE value="Added thread tracing and json serialization (files)" />
     <MESSAGE value="Fixed problems with json serialization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed problems with json serialization" />
+    <MESSAGE value="Added xml serialization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added xml serialization" />
   </component>
   <component name="WindowStateProjectService">
     <state width="472" height="464" key="DebuggerActiveHint" timestamp="1600271404987">
       <screen x="0" y="23" width="1440" height="799" />
     </state>
     <state width="472" height="464" key="DebuggerActiveHint/0.23.1440.799@0.23.1440.799" timestamp="1600271404987" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1600761027316">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1600763176955">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600761027316" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600763176955" />
     <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.23.1440.799@0.23.1440.799" timestamp="1600279362752" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1600761027315">
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1600763176953">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600761027315" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600763176953" />
     <state width="1398" height="205" key="GridCell.Tab.0.center/0.23.1440.799@0.23.1440.799" timestamp="1600279362751" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1600761027314">
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1600763176952">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600761027314" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600763176952" />
     <state width="1398" height="205" key="GridCell.Tab.0.left/0.23.1440.799@0.23.1440.799" timestamp="1600279362750" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1600761027316">
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1600763176954">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600761027316" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600763176954" />
     <state width="1398" height="205" key="GridCell.Tab.0.right/0.23.1440.799@0.23.1440.799" timestamp="1600279362751" />
     <state width="1398" height="330" key="GridCell.Tab.1.bottom" timestamp="1600714362302">
       <screen x="0" y="0" width="1440" height="900" />
@@ -213,18 +229,19 @@
     </state>
     <state width="1398" height="330" key="GridCell.Tab.4.right/0.0.1440.900@0.0.1440.900" timestamp="1600714362307" />
     <state width="1398" height="281" key="GridCell.Tab.4.right/0.23.1440.799@0.23.1440.799" timestamp="1600278615644" />
-    <state x="320" y="161" key="Rider.ProjectTemplateDialog.Size" timestamp="1600274844901">
-      <screen x="0" y="23" width="1440" height="799" />
+    <state x="320" y="155" key="Rider.ProjectTemplateDialog.Size" timestamp="1600763113134">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="320" y="155" key="Rider.ProjectTemplateDialog.Size/0.0.1440.900@0.0.1440.900" timestamp="1600763113134" />
     <state x="320" y="161" key="Rider.ProjectTemplateDialog.Size/0.23.1440.799@0.23.1440.799" timestamp="1600274844901" />
     <state x="532" y="131" key="RiderGenerateDialog" timestamp="1600253835020">
       <screen x="0" y="23" width="1440" height="799" />
     </state>
     <state x="532" y="131" key="RiderGenerateDialog/0.23.1440.799@0.23.1440.799" timestamp="1600253835020" />
-    <state x="320" y="157" key="Vcs.Push.Dialog.v2" timestamp="1600761265641">
+    <state x="320" y="157" key="Vcs.Push.Dialog.v2" timestamp="1600763023433">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="157" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1600761265641" />
+    <state x="320" y="157" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1600763023433" />
     <state x="320" y="162" key="Vcs.Push.Dialog.v2/0.23.1440.799@0.23.1440.799" timestamp="1600276568366" />
     <state width="720" height="399" key="XDebugger.FullValuePopup" timestamp="1600274242869">
       <screen x="0" y="23" width="1440" height="799" />
