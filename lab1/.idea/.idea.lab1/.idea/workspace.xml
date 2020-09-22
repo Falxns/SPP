@@ -14,12 +14,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8cd0b98b-761f-48e1-894b-0bd13569b760" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.lab1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lab1/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.lab1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lab1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainLibrary/ITracer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MainLibrary/ITracer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainLibrary/TraceResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MainLibrary/TraceResult.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp2.1/ConsoleApp.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp2.1/ConsoleApp.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp2.1/ConsoleApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp2.1/ConsoleApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp2.1/ConsoleApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp2.1/ConsoleApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp2.1/MainLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp2.1/MainLibrary.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp2.1/MainLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp2.1/MainLibrary.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp2.1/ConsoleApp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp2.1/ConsoleApp.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp2.1/ConsoleApp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp2.1/ConsoleApp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp2.1/ConsoleApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp2.1/ConsoleApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp2.1/ConsoleApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp2.1/ConsoleApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainLibrary/MethodInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MainLibrary/MethodInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainLibrary/Tracist.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MainLibrary/Tracist.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainLibrary/bin/Debug/netcoreapp2.1/MainLibrary.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/MainLibrary/bin/Debug/netcoreapp2.1/MainLibrary.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainLibrary/bin/Debug/netcoreapp2.1/MainLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MainLibrary/bin/Debug/netcoreapp2.1/MainLibrary.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainLibrary/bin/Debug/netcoreapp2.1/MainLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MainLibrary/bin/Debug/netcoreapp2.1/MainLibrary.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainLibrary/obj/Debug/netcoreapp2.1/MainLibrary.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MainLibrary/obj/Debug/netcoreapp2.1/MainLibrary.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainLibrary/obj/Debug/netcoreapp2.1/MainLibrary.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MainLibrary/obj/Debug/netcoreapp2.1/MainLibrary.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainLibrary/obj/Debug/netcoreapp2.1/MainLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MainLibrary/obj/Debug/netcoreapp2.1/MainLibrary.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainLibrary/obj/Debug/netcoreapp2.1/MainLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MainLibrary/obj/Debug/netcoreapp2.1/MainLibrary.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +44,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Tests/obj/Debug/netcoreapp2.1/.NETCoreApp,Version=v2.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp2.1/.NETCoreApp,Version=v2.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -37,15 +52,15 @@
       <list>
         <option value="$PROJECT_DIR$/MainLibrary/Class1.cs" />
         <option value="$PROJECT_DIR$/Tests/UnitTest1.cs" />
-        <option value="$PROJECT_DIR$/MainLibrary/MethodInfo.cs" />
         <option value="$PROJECT_DIR$/MainLibrary/ThreadInfo.cs" />
         <option value="$PROJECT_DIR$/MainLibrary/TraceResult.cs" />
-        <option value="$PROJECT_DIR$/MainLibrary/Tracist.cs" />
-        <option value="$PROJECT_DIR$/ConsoleApp/Program.cs" />
         <option value="$PROJECT_DIR$/MainLibrary/JSONSerialization.cs" />
         <option value="$PROJECT_DIR$/MainLibrary/ITracer.cs" />
         <option value="$PROJECT_DIR$/MainLibrary/ISerialization.cs" />
         <option value="$PROJECT_DIR$/MainLibrary/JsonSerialization.cs" />
+        <option value="$PROJECT_DIR$/ConsoleApp/Program.cs" />
+        <option value="$PROJECT_DIR$/MainLibrary/MethodInfo.cs" />
+        <option value="$PROJECT_DIR$/MainLibrary/Tracist.cs" />
       </list>
     </option>
   </component>
@@ -104,32 +119,34 @@
     <MESSAGE value="started lab1" />
     <MESSAGE value="added tracing in 1 thread 1 level" />
     <MESSAGE value="added tracing in 1 thread 1 many levels" />
-    <option name="LAST_COMMIT_MESSAGE" value="added tracing in 1 thread 1 many levels" />
+    <MESSAGE value="Added thread tracing and json serialization" />
+    <MESSAGE value="Added thread tracing and json serialization (files)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added thread tracing and json serialization (files)" />
   </component>
   <component name="WindowStateProjectService">
     <state width="472" height="464" key="DebuggerActiveHint" timestamp="1600271404987">
       <screen x="0" y="23" width="1440" height="799" />
     </state>
     <state width="472" height="464" key="DebuggerActiveHint/0.23.1440.799@0.23.1440.799" timestamp="1600271404987" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1600757260479">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1600760622407">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600757260479" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600760622407" />
     <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.23.1440.799@0.23.1440.799" timestamp="1600279362752" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1600757260478">
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1600760622405">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600757260478" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600760622405" />
     <state width="1398" height="205" key="GridCell.Tab.0.center/0.23.1440.799@0.23.1440.799" timestamp="1600279362751" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1600757260477">
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1600760622404">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600757260477" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600760622404" />
     <state width="1398" height="205" key="GridCell.Tab.0.left/0.23.1440.799@0.23.1440.799" timestamp="1600279362750" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1600757260479">
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1600760622406">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600757260479" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600760622406" />
     <state width="1398" height="205" key="GridCell.Tab.0.right/0.23.1440.799@0.23.1440.799" timestamp="1600279362751" />
     <state width="1398" height="330" key="GridCell.Tab.1.bottom" timestamp="1600714362302">
       <screen x="0" y="0" width="1440" height="900" />
@@ -219,9 +236,10 @@
       <screen x="0" y="23" width="1440" height="799" />
     </state>
     <state x="532" y="131" key="RiderGenerateDialog/0.23.1440.799@0.23.1440.799" timestamp="1600253835020" />
-    <state x="320" y="162" key="Vcs.Push.Dialog.v2" timestamp="1600276568366">
-      <screen x="0" y="23" width="1440" height="799" />
+    <state x="320" y="157" key="Vcs.Push.Dialog.v2" timestamp="1600760504009">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="320" y="157" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1600760504009" />
     <state x="320" y="162" key="Vcs.Push.Dialog.v2/0.23.1440.799@0.23.1440.799" timestamp="1600276568366" />
     <state width="720" height="399" key="XDebugger.FullValuePopup" timestamp="1600274242869">
       <screen x="0" y="23" width="1440" height="799" />

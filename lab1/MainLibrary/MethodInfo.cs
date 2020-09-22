@@ -1,24 +1,22 @@
 using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 
 namespace MainLibrary
 {
     public class MethodInfo
     {
-        private string _methodName;
-        private string _className;
+        public string MethodName;
+        public string ClassName;
         public long MethodTime;
-        public Stopwatch Watch;
+        [NonSerialized]public Stopwatch Watch;
+        public LinkedList<MethodInfo> MethodInfos = new LinkedList<MethodInfo>();
         public MethodInfo(string method, string className, long time, Stopwatch watch)
         {
-            _methodName = method;
-            _className = className;
+            MethodName = method;
+            ClassName = className;
             MethodTime = time;
             Watch = watch;
-        }
-        public void Print()
-        {
-            Console.WriteLine(_methodName + ' ' + _className + ' ' + MethodTime);
         }
     }
 }

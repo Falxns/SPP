@@ -26,7 +26,10 @@ namespace ConsoleApp
             myThread2.Join();
 
             TraceResult res = tracist.GetTraceResult();
-            res.Print();
+            JsonSerialization jsonSerialization = new JsonSerialization();
+            jsonSerialization.MakeString(res);
+            jsonSerialization.WriteToConsole();
+            jsonSerialization.SaveToFile();
         }
     }
     public class Foo

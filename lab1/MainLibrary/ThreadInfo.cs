@@ -14,13 +14,5 @@ namespace MainLibrary
             ThreadTime = threadTime;
             MethodInfos = methodInfos;
         }
-        public void Print()
-        {
-            Console.WriteLine(ThreadId + " " + ThreadTime);
-            foreach (var buff in MethodInfos)
-            {
-                buff.Print();
-            }
-        }
     }
 }

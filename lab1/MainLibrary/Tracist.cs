@@ -28,13 +28,17 @@ namespace MainLibrary
         {
             int num = Thread.CurrentThread.ManagedThreadId;
             _dictionary[num].Peek().Watch.Stop();
-            _dictionary[num].Peek().MethodTime = _dictionary[num].Peek().Watch.ElapsedMilliseconds;
-            if (_dictionary[num].Count == 1)
+            MethodInfo buff = _dictionary[num].Pop();
+            buff.MethodTime = buff.Watch.ElapsedMilliseconds;
+            if (_dictionary[num].Count == 0)
             {
-                traceResult.ThreadInfos.Last.Value.ThreadTime += _dictionary[num].Peek().MethodTime;
+                traceResult.ThreadInfos.Last.Value.ThreadTime += buff.MethodTime;
+                traceResult.ThreadInfos.Last.Value.MethodInfos.AddLast(buff);
             }
-            traceResult.ThreadInfos.Last.Value.MethodInfos.AddLast(_dictionary[num].Peek());
-            _dictionary[num].Pop();
+            else
+            {
+                _dictionary[num].Peek().MethodInfos.AddLast(buff);
+            }
         }
 
         public TraceResult GetTraceResult()
