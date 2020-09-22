@@ -38,6 +38,7 @@
         <e p="ThreadInfo.cs" t="Include" />
         <e p="TraceResult.cs" t="Include" />
         <e p="Tracist.cs" t="Include" />
+        <e p="XmlSerialization.cs" t="Include" />
       </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="Tests" t="IncludeRecursive">
