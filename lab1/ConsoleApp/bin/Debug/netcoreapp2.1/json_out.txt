@@ -2,8 +2,26 @@
   "ThreadInfos": [
     {
       "ThreadId": 3,
-      "ThreadTime": 153,
+      "ThreadTime": 0,
+      "MethodInfos": []
+    },
+    {
+      "ThreadId": 1,
+      "ThreadTime": 409,
       "MethodInfos": [
+        {
+          "MethodName": "MyMethod",
+          "ClassName": "Foo",
+          "MethodTime": 152,
+          "MethodInfos": [
+            {
+              "MethodName": "InnerMethod",
+              "ClassName": "Bar",
+              "MethodTime": 100,
+              "MethodInfos": []
+            }
+          ]
+        },
         {
           "MethodName": "MyMethod",
           "ClassName": "Foo",
@@ -12,26 +30,7 @@
             {
               "MethodName": "InnerMethod",
               "ClassName": "Bar",
-              "MethodTime": 101,
-              "MethodInfos": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "ThreadId": 1,
-      "ThreadTime": 262,
-      "MethodInfos": [
-        {
-          "MethodName": "MyMethod",
-          "ClassName": "Foo",
-          "MethodTime": 158,
-          "MethodInfos": [
-            {
-              "MethodName": "InnerMethod",
-              "ClassName": "Bar",
-              "MethodTime": 103,
+              "MethodTime": 102,
               "MethodInfos": []
             }
           ]
