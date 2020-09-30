@@ -1,0 +1,9 @@
+/Users/falxns/Downloads/СПП/lab2/FakerLib/bin/Debug/netcoreapp2.1/FakerLib.deps.json
+/Users/falxns/Downloads/СПП/lab2/FakerLib/bin/Debug/netcoreapp2.1/FakerLib.dll
+/Users/falxns/Downloads/СПП/lab2/FakerLib/bin/Debug/netcoreapp2.1/FakerLib.pdb
+/Users/falxns/Downloads/СПП/lab2/FakerLib/obj/Debug/netcoreapp2.1/FakerLib.csprojAssemblyReference.cache
+/Users/falxns/Downloads/СПП/lab2/FakerLib/obj/Debug/netcoreapp2.1/FakerLib.AssemblyInfoInputs.cache
+/Users/falxns/Downloads/СПП/lab2/FakerLib/obj/Debug/netcoreapp2.1/FakerLib.AssemblyInfo.cs
+/Users/falxns/Downloads/СПП/lab2/FakerLib/obj/Debug/netcoreapp2.1/FakerLib.csproj.CoreCompileInputs.cache
+/Users/falxns/Downloads/СПП/lab2/FakerLib/obj/Debug/netcoreapp2.1/FakerLib.dll
+/Users/falxns/Downloads/СПП/lab2/FakerLib/obj/Debug/netcoreapp2.1/FakerLib.pdb

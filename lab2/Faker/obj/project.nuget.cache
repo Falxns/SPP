@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "7z5pDzkMMDmzc1IPdT4M7jQm7Eo68+P5Sb+BTulXqAIbtPggIW6I8fbeQAGcfAE8zow++6Z62cNfKRl5KYNVkw==",
+  "success": true,
+  "projectFilePath": "/Users/falxns/Downloads/СПП/lab2/Faker/Faker.csproj",
+  "expectedPackageFiles": [
+    "/Users/falxns/.nuget/packages/microsoft.netcore.app/2.1.0/microsoft.netcore.app.2.1.0.nupkg.sha512",
+    "/Users/falxns/.nuget/packages/microsoft.netcore.dotnetapphost/2.1.0/microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
+    "/Users/falxns/.nuget/packages/microsoft.netcore.dotnethostpolicy/2.1.0/microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
+    "/Users/falxns/.nuget/packages/microsoft.netcore.dotnethostresolver/2.1.0/microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
+    "/Users/falxns/.nuget/packages/microsoft.netcore.platforms/2.1.0/microsoft.netcore.platforms.2.1.0.nupkg.sha512",
+    "/Users/falxns/.nuget/packages/microsoft.netcore.targets/2.1.0/microsoft.netcore.targets.2.1.0.nupkg.sha512",
+    "/Users/falxns/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

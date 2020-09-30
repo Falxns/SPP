@@ -1,0 +1,15 @@
+/Users/falxns/Downloads/СПП/lab2/App/bin/Debug/netcoreapp2.1/App.deps.json
+/Users/falxns/Downloads/СПП/lab2/App/bin/Debug/netcoreapp2.1/App.runtimeconfig.json
+/Users/falxns/Downloads/СПП/lab2/App/bin/Debug/netcoreapp2.1/App.runtimeconfig.dev.json
+/Users/falxns/Downloads/СПП/lab2/App/bin/Debug/netcoreapp2.1/App.dll
+/Users/falxns/Downloads/СПП/lab2/App/bin/Debug/netcoreapp2.1/App.pdb
+/Users/falxns/Downloads/СПП/lab2/App/bin/Debug/netcoreapp2.1/FakerLib.dll
+/Users/falxns/Downloads/СПП/lab2/App/bin/Debug/netcoreapp2.1/FakerLib.pdb
+/Users/falxns/Downloads/СПП/lab2/App/obj/Debug/netcoreapp2.1/App.csprojAssemblyReference.cache
+/Users/falxns/Downloads/СПП/lab2/App/obj/Debug/netcoreapp2.1/App.AssemblyInfoInputs.cache
+/Users/falxns/Downloads/СПП/lab2/App/obj/Debug/netcoreapp2.1/App.AssemblyInfo.cs
+/Users/falxns/Downloads/СПП/lab2/App/obj/Debug/netcoreapp2.1/App.csproj.CoreCompileInputs.cache
+/Users/falxns/Downloads/СПП/lab2/App/obj/Debug/netcoreapp2.1/App.csproj.CopyComplete
+/Users/falxns/Downloads/СПП/lab2/App/obj/Debug/netcoreapp2.1/App.dll
+/Users/falxns/Downloads/СПП/lab2/App/obj/Debug/netcoreapp2.1/App.pdb
+/Users/falxns/Downloads/СПП/lab2/App/obj/Debug/netcoreapp2.1/App.genruntimeconfig.cache

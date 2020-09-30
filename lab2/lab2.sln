@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakerLib", "FakerLib\FakerLib.csproj", "{1317909C-E3A7-40AA-AAB6-AC5BC81E3508}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App", "App\App.csproj", "{F423DD88-B16A-4A59-AFED-1DB3F08C555E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1317909C-E3A7-40AA-AAB6-AC5BC81E3508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1317909C-E3A7-40AA-AAB6-AC5BC81E3508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1317909C-E3A7-40AA-AAB6-AC5BC81E3508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1317909C-E3A7-40AA-AAB6-AC5BC81E3508}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F423DD88-B16A-4A59-AFED-1DB3F08C555E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F423DD88-B16A-4A59-AFED-1DB3F08C555E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F423DD88-B16A-4A59-AFED-1DB3F08C555E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F423DD88-B16A-4A59-AFED-1DB3F08C555E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
