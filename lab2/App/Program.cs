@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace App
 {
@@ -8,22 +9,40 @@ namespace App
         {
             Faker.Faker faker = new Faker.Faker();
             Foo foo = faker.Create<Foo>();
+            Bar bar = faker.Create<Bar>();
         }
     }
 
     class Foo
     {
-        public int IntegerNum;
-        public float FloatNum;
+        private int IntegerNum;
+        private float FloatNum;
         public double DoubleNum;
         private long _longNum;
         public byte ByteNum;
         private bool _boolValue;
         private char _charValue;
         public string StringValue;
+        public DateTime DataValue;
+        public List<int> ListNum;
+        private List<char> _charList;
+        private List<bool> _boolList;
+        public Bar bar;
+        public Dictionary<int, int> Dictionary;
 
-        public Foo()
-        {}
+        public Foo(int Integer, float Float)
+        {
+            IntegerNum = Integer;
+            FloatNum = Float;
+        }
+
+        public Foo(long Long, char Char, bool Bool, List<bool> BoolList)
+        {
+            _longNum = Long;
+            _charValue = Char;
+            _boolValue = Bool;
+            _boolList = BoolList;
+        }
 
         public long LongNum
         {
@@ -40,5 +59,18 @@ namespace App
         {
             set => _charValue = value;
         }
+
+        public List<char> CharList
+        {
+            set => _charList = value;
+        }
+    }
+
+    class Bar
+    {
+        public int IntegerNum;
+        
+        private Bar()
+        {}
     }
 }
