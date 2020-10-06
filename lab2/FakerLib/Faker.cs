@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Reflection;
 
@@ -11,12 +12,15 @@ namespace Faker
         {
             {typeof(int), () => GenerateInt()},
             {typeof(float), () => GenerateFloat()},
-            {typeof(double), () => GenerateDouble()}
+            {typeof(double), () => GenerateDouble()},
+            {typeof(long), () => GenerateLong()},
+            {typeof(byte), () => GenerateByte()},
+            {typeof(bool), () => GenerateBool()},
+            {typeof(char), () => GenerateChar()},
+            {typeof(string), () => GenerateString()}
         };
         private static Random _random = new Random();
-        public Faker()
-        {}
-        
+
         public T Create<T>()
         {
             Type type = typeof(T);
@@ -106,6 +110,42 @@ namespace Faker
         private static double GenerateDouble()
         {
             return _random.NextDouble();
+        }
+        
+        private static long GenerateLong()
+        {
+            byte[] buff = new byte[8];
+            _random.NextBytes(buff);
+            return BitConverter.ToInt64(buff, 0);
+        }
+        
+        private static byte GenerateByte()
+        {
+            byte[] buff = new byte[1];
+            _random.NextBytes(buff);
+            return buff[0];
+        }
+        
+        private static bool GenerateBool()
+        {
+            return _random.Next(2) == 1;
+        }
+
+        private static char GenerateChar()
+        {
+            string buff = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890";
+            return buff[_random.Next(buff.Length - 1)];
+        }
+        
+        private static string GenerateString()
+        {
+            string buff = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890";
+            string res = "";
+            for (int i = 0; i < _random.Next(256); i++)
+            {
+                res += buff[_random.Next(buff.Length - 1)];
+            }
+            return res;
         }
     }
 }
