@@ -23,6 +23,7 @@ namespace Faker
             {typeof(List<Object>), () => GenerateList(typeof(Type))}
         };
         private static Random _random = new Random();
+        private HashSet<Type> _used = new HashSet<Type>();
 
         public T Create<T>()
         {
@@ -32,14 +33,25 @@ namespace Faker
 
         private Object CreateRec(Type type)
         {
+            if (_used.Contains(type))
+            {
+                throw new Exception("Cyclical dependence");
+            }
+            _used.Add(type);
+            
             ConstructorInfo constructor = SelectConstructor(type);
-            if (constructor == null) return null;
+            if (constructor == null)
+            {
+                _used.Remove(type);
+                return null; 
+            }
             Object[] param = GenerateParams(constructor);
             Object obj = constructor.Invoke(param);
             
             SetFields(obj,type);
             SetProperties(obj,type);
-            
+
+            _used.Remove(type);
             return obj;
         }
 

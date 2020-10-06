@@ -10,6 +10,7 @@ namespace App
             Faker.Faker faker = new Faker.Faker();
             Foo foo = faker.Create<Foo>();
             Bar bar = faker.Create<Bar>();
+            A a = faker.Create<A>();
         }
     }
 
@@ -72,5 +73,15 @@ namespace App
         
         private Bar()
         {}
+    }
+
+    class A
+    {
+        public B b;
+    }
+
+    class B
+    {
+        public A a;
     }
 }
