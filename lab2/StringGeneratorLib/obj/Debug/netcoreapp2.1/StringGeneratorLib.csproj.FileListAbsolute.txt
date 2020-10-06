@@ -1,0 +1,12 @@
+/Users/falxns/Downloads/СПП/lab2/StringGeneratorLib/bin/Debug/netcoreapp2.1/StringGeneratorLib.deps.json
+/Users/falxns/Downloads/СПП/lab2/StringGeneratorLib/bin/Debug/netcoreapp2.1/StringGeneratorLib.dll
+/Users/falxns/Downloads/СПП/lab2/StringGeneratorLib/bin/Debug/netcoreapp2.1/StringGeneratorLib.pdb
+/Users/falxns/Downloads/СПП/lab2/StringGeneratorLib/bin/Debug/netcoreapp2.1/FakerLib.dll
+/Users/falxns/Downloads/СПП/lab2/StringGeneratorLib/bin/Debug/netcoreapp2.1/FakerLib.pdb
+/Users/falxns/Downloads/СПП/lab2/StringGeneratorLib/obj/Debug/netcoreapp2.1/StringGeneratorLib.csprojAssemblyReference.cache
+/Users/falxns/Downloads/СПП/lab2/StringGeneratorLib/obj/Debug/netcoreapp2.1/StringGeneratorLib.AssemblyInfoInputs.cache
+/Users/falxns/Downloads/СПП/lab2/StringGeneratorLib/obj/Debug/netcoreapp2.1/StringGeneratorLib.AssemblyInfo.cs
+/Users/falxns/Downloads/СПП/lab2/StringGeneratorLib/obj/Debug/netcoreapp2.1/StringGeneratorLib.csproj.CoreCompileInputs.cache
+/Users/falxns/Downloads/СПП/lab2/StringGeneratorLib/obj/Debug/netcoreapp2.1/StringGeneratorLib.csproj.CopyComplete
+/Users/falxns/Downloads/СПП/lab2/StringGeneratorLib/obj/Debug/netcoreapp2.1/StringGeneratorLib.dll
+/Users/falxns/Downloads/СПП/lab2/StringGeneratorLib/obj/Debug/netcoreapp2.1/StringGeneratorLib.pdb

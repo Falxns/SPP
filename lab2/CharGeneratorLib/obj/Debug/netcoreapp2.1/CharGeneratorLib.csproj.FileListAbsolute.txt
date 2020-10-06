@@ -1,0 +1,12 @@
+/Users/falxns/Downloads/СПП/lab2/CharGeneratorLib/bin/Debug/netcoreapp2.1/CharGeneratorLib.deps.json
+/Users/falxns/Downloads/СПП/lab2/CharGeneratorLib/bin/Debug/netcoreapp2.1/CharGeneratorLib.dll
+/Users/falxns/Downloads/СПП/lab2/CharGeneratorLib/bin/Debug/netcoreapp2.1/CharGeneratorLib.pdb
+/Users/falxns/Downloads/СПП/lab2/CharGeneratorLib/bin/Debug/netcoreapp2.1/FakerLib.dll
+/Users/falxns/Downloads/СПП/lab2/CharGeneratorLib/bin/Debug/netcoreapp2.1/FakerLib.pdb
+/Users/falxns/Downloads/СПП/lab2/CharGeneratorLib/obj/Debug/netcoreapp2.1/CharGeneratorLib.csprojAssemblyReference.cache
+/Users/falxns/Downloads/СПП/lab2/CharGeneratorLib/obj/Debug/netcoreapp2.1/CharGeneratorLib.AssemblyInfoInputs.cache
+/Users/falxns/Downloads/СПП/lab2/CharGeneratorLib/obj/Debug/netcoreapp2.1/CharGeneratorLib.AssemblyInfo.cs
+/Users/falxns/Downloads/СПП/lab2/CharGeneratorLib/obj/Debug/netcoreapp2.1/CharGeneratorLib.csproj.CoreCompileInputs.cache
+/Users/falxns/Downloads/СПП/lab2/CharGeneratorLib/obj/Debug/netcoreapp2.1/CharGeneratorLib.csproj.CopyComplete
+/Users/falxns/Downloads/СПП/lab2/CharGeneratorLib/obj/Debug/netcoreapp2.1/CharGeneratorLib.dll
+/Users/falxns/Downloads/СПП/lab2/CharGeneratorLib/obj/Debug/netcoreapp2.1/CharGeneratorLib.pdb

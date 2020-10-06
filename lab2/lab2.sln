@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakerLib", "FakerLib\FakerL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App", "App\App.csproj", "{F423DD88-B16A-4A59-AFED-1DB3F08C555E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringGeneratorLib", "StringGeneratorLib\StringGeneratorLib.csproj", "{30EFB722-6A26-4DEC-8C4F-A01CED03AF54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharGeneratorLib", "CharGeneratorLib\CharGeneratorLib.csproj", "{E1E17440-99EE-4BDA-BEE5-870FB67F6D9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{F423DD88-B16A-4A59-AFED-1DB3F08C555E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F423DD88-B16A-4A59-AFED-1DB3F08C555E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F423DD88-B16A-4A59-AFED-1DB3F08C555E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30EFB722-6A26-4DEC-8C4F-A01CED03AF54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30EFB722-6A26-4DEC-8C4F-A01CED03AF54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30EFB722-6A26-4DEC-8C4F-A01CED03AF54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30EFB722-6A26-4DEC-8C4F-A01CED03AF54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1E17440-99EE-4BDA-BEE5-870FB67F6D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1E17440-99EE-4BDA-BEE5-870FB67F6D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1E17440-99EE-4BDA-BEE5-870FB67F6D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1E17440-99EE-4BDA-BEE5-870FB67F6D9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

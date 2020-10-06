@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Diagnostics.SymbolStore;
+using System.IO;
 using System.Linq;
 using System.Reflection;
 
@@ -17,14 +18,19 @@ namespace Faker
             {typeof(long), () => GenerateLong()},
             {typeof(byte), () => GenerateByte()},
             {typeof(bool), () => GenerateBool()},
-            {typeof(char), () => GenerateChar()},
-            {typeof(string), () => GenerateString()},
             {typeof(DateTime), () => GenerateDateTime()},
             {typeof(List<Object>), () => GenerateList(typeof(Type))}
         };
         private static Random _random = new Random();
         private HashSet<Type> _used = new HashSet<Type>();
-
+        
+        private string _pluginsPath = "/Users/falxns/Downloads/СПП/lab2/App/Plugins";
+            
+        public Faker()
+        {
+            InstallPlugins();
+        }
+        
         public T Create<T>()
         {
             Type type = typeof(T);
@@ -167,6 +173,27 @@ namespace Faker
         {
             return type.IsGenericType && type.GetGenericTypeDefinition() == typeof(List<>) && Types.ContainsKey(type.GetGenericArguments()[0]);
         }
+        
+        private void InstallPlugins()
+        {
+            DirectoryInfo pluginDir = new DirectoryInfo(_pluginsPath);
+            if (!pluginDir.Exists)
+                pluginDir.Create();
+            
+            string[] pluginFiles = Directory.GetFiles(_pluginsPath, "*.dll");
+            foreach (string file in pluginFiles)
+            {
+                Assembly asm = Assembly.LoadFrom(file);
+                IEnumerable<Type> types = asm.GetTypes().
+                    Where(t => t.GetInterfaces().Any(i => i.FullName == typeof(IPlugin).FullName));
+
+                foreach (Type type in types)
+                {           
+                    IPlugin plugin = asm.CreateInstance(type.FullName) as IPlugin;
+                    Types.Add(plugin.GetGenType(), () => plugin.Generate());
+                }
+            }
+        }
 
         private static int GenerateInt()
         {
@@ -203,23 +230,6 @@ namespace Faker
             return _random.Next(2) == 1;
         }
 
-        private static char GenerateChar()
-        {
-            string buff = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890";
-            return buff[_random.Next(buff.Length - 1)];
-        }
-        
-        private static string GenerateString()
-        {
-            string buff = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890";
-            string res = "";
-            for (int i = 0; i < _random.Next(256); i++)
-            {
-                res += buff[_random.Next(buff.Length - 1)];
-            }
-            return res;
-        }
-        
         private static DateTime GenerateDateTime()
         {
             DateTime start = new DateTime(2007, 1, 1, 1,1,1);
