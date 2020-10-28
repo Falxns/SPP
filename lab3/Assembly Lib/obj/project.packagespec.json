@@ -1,0 +1,46 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\maksf\\Desktop\\СПП\\lab-3\\Assembly Lib\\Assembly Lib.csproj",
+    "projectName": "Assembly Lib",
+    "projectPath": "C:\\Users\\maksf\\Desktop\\СПП\\lab-3\\Assembly Lib\\Assembly Lib.csproj",
+    "outputPath": "C:\\Users\\maksf\\Desktop\\СПП\\lab-3\\Assembly Lib\\obj\\",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "C:\\Users\\maksf\\.dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+    }
+  }
+}

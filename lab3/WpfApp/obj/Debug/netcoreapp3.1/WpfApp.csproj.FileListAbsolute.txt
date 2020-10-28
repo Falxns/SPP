@@ -1,0 +1,44 @@
+C:\Users\maksf\Desktop\MPP-master\lab-3\WpfApp\bin\Debug\netcoreapp3.1\WpfApp.exe
+C:\Users\maksf\Desktop\MPP-master\lab-3\WpfApp\bin\Debug\netcoreapp3.1\WpfApp.deps.json
+C:\Users\maksf\Desktop\MPP-master\lab-3\WpfApp\bin\Debug\netcoreapp3.1\WpfApp.runtimeconfig.json
+C:\Users\maksf\Desktop\MPP-master\lab-3\WpfApp\bin\Debug\netcoreapp3.1\WpfApp.runtimeconfig.dev.json
+C:\Users\maksf\Desktop\MPP-master\lab-3\WpfApp\bin\Debug\netcoreapp3.1\WpfApp.dll
+C:\Users\maksf\Desktop\MPP-master\lab-3\WpfApp\bin\Debug\netcoreapp3.1\WpfApp.pdb
+C:\Users\maksf\Desktop\MPP-master\lab-3\WpfApp\bin\Debug\netcoreapp3.1\Assembly Lib.dll
+C:\Users\maksf\Desktop\MPP-master\lab-3\WpfApp\bin\Debug\netcoreapp3.1\Assembly Lib.pdb
+C:\Users\maksf\Desktop\MPP-master\lab-3\WpfApp\obj\Debug\netcoreapp3.1\WpfApp.csprojAssemblyReference.cache
+C:\Users\maksf\Desktop\MPP-master\lab-3\WpfApp\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\maksf\Desktop\MPP-master\lab-3\WpfApp\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\maksf\Desktop\MPP-master\lab-3\WpfApp\obj\Debug\netcoreapp3.1\WpfApp_MarkupCompile.cache
+C:\Users\maksf\Desktop\MPP-master\lab-3\WpfApp\obj\Debug\netcoreapp3.1\WpfApp_MarkupCompile.lref
+C:\Users\maksf\Desktop\MPP-master\lab-3\WpfApp\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\maksf\Desktop\MPP-master\lab-3\WpfApp\obj\Debug\netcoreapp3.1\WpfApp.g.resources
+C:\Users\maksf\Desktop\MPP-master\lab-3\WpfApp\obj\Debug\netcoreapp3.1\WpfApp.AssemblyInfoInputs.cache
+C:\Users\maksf\Desktop\MPP-master\lab-3\WpfApp\obj\Debug\netcoreapp3.1\WpfApp.AssemblyInfo.cs
+C:\Users\maksf\Desktop\MPP-master\lab-3\WpfApp\obj\Debug\netcoreapp3.1\WpfApp.csproj.CoreCompileInputs.cache
+C:\Users\maksf\Desktop\MPP-master\lab-3\WpfApp\obj\Debug\netcoreapp3.1\WpfApp.csproj.CopyComplete
+C:\Users\maksf\Desktop\MPP-master\lab-3\WpfApp\obj\Debug\netcoreapp3.1\WpfApp.dll
+C:\Users\maksf\Desktop\MPP-master\lab-3\WpfApp\obj\Debug\netcoreapp3.1\WpfApp.pdb
+C:\Users\maksf\Desktop\MPP-master\lab-3\WpfApp\obj\Debug\netcoreapp3.1\WpfApp.genruntimeconfig.cache
+C:\Users\maksf\Desktop\СПП\lab-3\WpfApp\bin\Debug\netcoreapp3.1\WpfApp.exe
+C:\Users\maksf\Desktop\СПП\lab-3\WpfApp\bin\Debug\netcoreapp3.1\WpfApp.deps.json
+C:\Users\maksf\Desktop\СПП\lab-3\WpfApp\bin\Debug\netcoreapp3.1\WpfApp.runtimeconfig.json
+C:\Users\maksf\Desktop\СПП\lab-3\WpfApp\bin\Debug\netcoreapp3.1\WpfApp.runtimeconfig.dev.json
+C:\Users\maksf\Desktop\СПП\lab-3\WpfApp\bin\Debug\netcoreapp3.1\WpfApp.dll
+C:\Users\maksf\Desktop\СПП\lab-3\WpfApp\bin\Debug\netcoreapp3.1\WpfApp.pdb
+C:\Users\maksf\Desktop\СПП\lab-3\WpfApp\bin\Debug\netcoreapp3.1\Assembly Lib.dll
+C:\Users\maksf\Desktop\СПП\lab-3\WpfApp\bin\Debug\netcoreapp3.1\Assembly Lib.pdb
+C:\Users\maksf\Desktop\СПП\lab-3\WpfApp\obj\Debug\netcoreapp3.1\WpfApp.csprojAssemblyReference.cache
+C:\Users\maksf\Desktop\СПП\lab-3\WpfApp\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\maksf\Desktop\СПП\lab-3\WpfApp\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\maksf\Desktop\СПП\lab-3\WpfApp\obj\Debug\netcoreapp3.1\WpfApp_MarkupCompile.cache
+C:\Users\maksf\Desktop\СПП\lab-3\WpfApp\obj\Debug\netcoreapp3.1\WpfApp_MarkupCompile.lref
+C:\Users\maksf\Desktop\СПП\lab-3\WpfApp\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\maksf\Desktop\СПП\lab-3\WpfApp\obj\Debug\netcoreapp3.1\WpfApp.g.resources
+C:\Users\maksf\Desktop\СПП\lab-3\WpfApp\obj\Debug\netcoreapp3.1\WpfApp.AssemblyInfoInputs.cache
+C:\Users\maksf\Desktop\СПП\lab-3\WpfApp\obj\Debug\netcoreapp3.1\WpfApp.AssemblyInfo.cs
+C:\Users\maksf\Desktop\СПП\lab-3\WpfApp\obj\Debug\netcoreapp3.1\WpfApp.csproj.CoreCompileInputs.cache
+C:\Users\maksf\Desktop\СПП\lab-3\WpfApp\obj\Debug\netcoreapp3.1\WpfApp.csproj.CopyComplete
+C:\Users\maksf\Desktop\СПП\lab-3\WpfApp\obj\Debug\netcoreapp3.1\WpfApp.dll
+C:\Users\maksf\Desktop\СПП\lab-3\WpfApp\obj\Debug\netcoreapp3.1\WpfApp.pdb
+C:\Users\maksf\Desktop\СПП\lab-3\WpfApp\obj\Debug\netcoreapp3.1\WpfApp.genruntimeconfig.cache

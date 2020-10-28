@@ -70,17 +70,24 @@ namespace App
     class Bar
     {
         public int IntegerNum;
+        public A a;
         
-        private Bar()
+        public Bar()
         {}
     }
 
     class A
     {
         public B b;
+        public B b1;
+        public B b2;
     }
 
     class B
+    {
+        public A a;
+    }
+    class C
     {
         public A a;
     }

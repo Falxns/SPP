@@ -41,7 +41,8 @@ namespace Faker
         {
             if (_used.Contains(type))
             {
-                throw new Exception("Cyclical dependence");
+                // throw new Exception("Cyclical dependence");
+                return null;
             }
             _used.Add(type);
             
